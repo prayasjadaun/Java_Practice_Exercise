@@ -36,7 +36,6 @@ public class practicesLoops {
         for (int i = 0; i < n; i++) {
             sum = sum + (2*i);
             System.out.println(sum);
-
         }
     }
 }
