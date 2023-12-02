@@ -58,7 +58,7 @@
 //     }
 // }
 // -------------------------------------------------------------------------
-// Question-3-Write a program to print multiplication table of a given number in reverse number.
+// Question-4-Write a program to print multiplication table of a given number in reverse number.
 // Solution------------------------------------------------------------------------
 
 // import java.util.*;
@@ -76,3 +76,19 @@
 //     }
 // }.
 // -----------------------------------------------------------------
+// Question-5-Write a program to fint a factorial of a given number using for loop.
+// Solution---------------------------------------------------------
+
+import java.util.*;
+
+public class practicesLoops{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int n = sc.nextInt();
+        int fact = 1;
+        for(int i = fact;i<=n;i++){
+            System.out.println(fact*=i);
+        }
+    }
+}
