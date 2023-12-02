@@ -43,20 +43,36 @@
 // Question-3-Write a program to print multiplication table of a given number.
 // Solution------------------------------------------------------------------------
 
-import java.util.*;
+// import java.util.*;
 
-public class practicesLoops {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number: ");
-        int n = sc.nextInt();
+// public class practicesLoops {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the number: ");
+//         int n = sc.nextInt();
 
-        for (int i = 1; i <= 10; i++) {
-            for (int j = n; j <= n; j++) {
-                System.out.println(n + "*" + i + "=" + (i * n));
-            }
+//         for (int i = 1; i <= 10; i++) {
+//             System.out.println(n + " X " + i + " = " + (i * n));
+//         }
 
-        }
+//     }
+// }
+// -------------------------------------------------------------------------
+// Question-3-Write a program to print multiplication table of a given number in reverse number.
+// Solution------------------------------------------------------------------------
 
-    }
-}
+// import java.util.*;
+
+// public class practicesLoops {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the number: ");
+//         int n = sc.nextInt();
+
+//         for (int i = 10; i >= 1; i--) {
+//             System.out.println(n + " X " + i + " = " + (i * n));
+//         }
+
+//     }
+// }.
+// -----------------------------------------------------------------
