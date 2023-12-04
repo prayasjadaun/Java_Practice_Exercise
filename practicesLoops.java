@@ -21,7 +21,7 @@
 // --------------------------------------------------------------
 
 // Question-2-------------------------------------
-// Write a program to sum first n even numbers using while loop
+// Write a program to sum first n even numbers using for loop.
 // Solution-------------------------------------------------
 
 // import java.util.*;
@@ -147,6 +147,26 @@
 
 // Solution-----------------------------------------
 
+// import java.util.*;
+
+// public class practicesLoops {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the number: ");
+//         int n = sc.nextInt();
+//         int sum = 0;
+
+//         for (int i = 1; i <= 10; i++) {
+//             sum +=n * i;
+//             System.out.println(n + " * " + i + " = " + (i * n));
+//         }
+//         System.out.println("The sum of the table is: "+sum);
+//     }
+// }
+
+// / Write a program to sum first n even numbers using while loop
+// Solution-------------------------------------------------
+
 import java.util.*;
 
 public class practicesLoops {
@@ -155,11 +175,12 @@ public class practicesLoops {
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
         int sum = 0;
+        int i = 0;
 
-        for (int i = 1; i <= 10; i++) {
-            sum +=n * i;
-            System.out.println(n + " * " + i + " = " + (i * n));
+        while (i < n) {
+            sum = sum + (2 * i);
+            i++;
         }
-        System.out.println("The sum of the table is: "+sum);
+        System.out.println(sum);
     }
 }
