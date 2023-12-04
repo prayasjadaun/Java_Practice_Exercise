@@ -94,7 +94,7 @@
 //     }
 // }
 // ---------------------------------------------------------------------
-// Question-6- Repeat 5 usong while loop
+// Question-6- Repeat 5 using while loop
 // Solution------------------------------
 
 // import java.util.*;
@@ -120,33 +120,46 @@
 // **
 // *
 // Solution-------------------------------------
+// import java.util.*;
+
+// public class practicesLoops {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the number: ");
+//         int n = sc.nextInt();
+
+//         int i = 0;
+//         while (i < n) {
+//             int j = n - i;
+//             while (j > 0) {
+//                 System.out.print("*");
+//                 j--;
+//             }
+//             System.out.println();
+//             i++;
+//         }
+//     }
+// }
+// ----------------------------------------------------
+
+// Question-8- Write a program to calculate the sum of the numbers
+// occuring in the multiplication table of n.
+
+// Solution-----------------------------------------
+
 import java.util.*;
 
 public class practicesLoops {
-    // public static void main(String[]args){
-    // Scanner sc = new Scanner(System.in);
-    // System.out.print("Enter the number: ");
-    // int n = sc.nextInt();
-    // int i =1;
-    // while(i>=n){
-    // while(j<0)
-
-    // i--;
-    // }
-
-    // }
-
     public static void main(String[] args) {
-        int n = 5; // Define the number of rows
-        int i = 0;
-        while (i < n) {
-            int j = n - i;
-            while (j > 0) {
-                System.out.print("*");
-                j--;
-            }
-            System.out.println();
-            i++;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int n = sc.nextInt();
+        int sum = 0;
+
+        for (int i = 1; i <= 10; i++) {
+            sum +=n * i;
+            System.out.println(n + " * " + i + " = " + (i * n));
         }
+        System.out.println("The sum of the table is: "+sum);
     }
 }
