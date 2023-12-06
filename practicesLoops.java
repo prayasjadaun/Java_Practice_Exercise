@@ -164,23 +164,45 @@
 //     }
 // }
 
-// / Write a program to sum first n even numbers using while loop
+// Question-9- Write a program to sum first n even numbers using while loop
 // Solution-------------------------------------------------
+
+// import java.util.*;
+
+// public class practicesLoops {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the number: ");
+//         int n = sc.nextInt();
+//         int sum = 0;
+//         int i = 0;
+
+//         while (i < n) {
+//             sum = sum + (2 * i);
+//             i++;
+//         }
+//         System.out.println(sum);
+//     }
+// }
+// ------------------------------------------------------------------
+
+// Question-10- Write a program to find the value of one number raised to the power of another
+// Solution--------------------------------------------------------
 
 import java.util.*;
 
 public class practicesLoops {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number: ");
-        int n = sc.nextInt();
-        int sum = 0;
-        int i = 0;
+        System.out.print("Enter the base number: ");
+        int base = sc.nextInt();
+        System.out.print("Enter the power number");
+        int power = sc.nextInt();
 
-        while (i < n) {
-            sum = sum + (2 * i);
-            i++;
+        int result = 1;
+        for (int i = 1; i <= power; i++) {
+            result *= base;
         }
-        System.out.println(sum);
+        System.out.println("Result: " + result);
     }
 }
