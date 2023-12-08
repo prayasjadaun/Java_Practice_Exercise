@@ -8,7 +8,7 @@ public class practiceArray {
         for(float elements: marks){
             sum = sum + elements;
         }
-        System.out.println(sum);
+        System.out.println("The sum is: "+sum);
 
     }
 }
