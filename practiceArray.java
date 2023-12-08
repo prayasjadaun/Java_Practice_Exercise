@@ -52,24 +52,77 @@ public class practiceArray {
  ------------------------------------------------------------------
 Question-4-Write a java program to find the maximum and minimum element in an array.
 Solution---------------------------------------------------------------- 
-*/
 import java.util.*;
 
 public class practiceArray {
     public static void main(String[] args) {
         int[] arr = { 23, 56, 876, 3, 56, 78, 3, 2, 567 };
         int max = arr[0], min = arr[0];
-
+        
         for (int element : arr) {
 
             if (element > max)
-                max = element;
-
+            max = element;
+            
             if (element < min)
-                min = element;
+            min = element;
         }
-
+        
         System.out.println("The maximum element is : " + max);
         System.out.println("the minimum element is: " + min);
     }
+}
+-----------------------------------------------------------------
+Question-5-Write a program to array elements print all odd numbers.
+Solution---------------------------------------------------------
+import java.util.*;
+
+public class practiceArray {
+    public static void main(String[] args) {
+        int[] arr = { 23, 54, 65, 32, 67, 89, 90 };
+        for (int odd : arr) {
+            if (odd % 2 == 1) {
+                System.out.println(odd);
+            }
+            
+        }
+    }
+}
+---------------------------------------------------------------------
+Question-6-Write a program to array elements to print sum of cubic value.
+Solution------------------------------------------------------------------
+import java.util.*;
+public class practiceArray{
+    public static void main(String[]args){
+        int [] arr = {23,43,67,31,77,65};
+        for(int cubic:arr){
+            
+        }
+    }
+}
+*/
+import java.util.*;
+
+public class practiceArray {
+
+    public static int[] twoSum(int[] nums, int target) {
+        for (int i = 0; i < nums.length -1; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[] { i, j };
+
+                }
+            }
+        }
+        throw new IllegalArgumentException("No two sum solution");
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 2, 7, 11, 13 };
+        int target = 9;
+        int[] ans = twoSum(nums, target);
+
+        System.out.println(ans[0] +" "+ ans[1]);
+    }
+
 }
