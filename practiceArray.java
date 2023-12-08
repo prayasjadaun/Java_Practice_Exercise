@@ -50,23 +50,25 @@ public class practiceArray {
 */
 /*   
  ------------------------------------------------------------------
-Question-4-Write a java program to find the maximum element in an array.
+Question-4-Write a java program to find the maximum and minimum element in an array.
 Solution---------------------------------------------------------------- 
 */
 import java.util.*;
 
 public class practiceArray {
     public static void main(String[] args) {
-        int[] arr = { 23, 56, 876, 3, 56, 78, 3, 2, 567, 8 };
-        int max = 0, min = 0;
+        int[] arr = { 23, 56, 876, 3, 56, 78, 3, 2, 567 };
+        int max = arr[0], min = arr[0];
+
         for (int element : arr) {
-            if (min > element)
-                min = element;
 
             if (element > max)
                 max = element;
 
+            if (element < min)
+                min = element;
         }
+
         System.out.println("The maximum element is : " + max);
         System.out.println("the minimum element is: " + min);
     }
