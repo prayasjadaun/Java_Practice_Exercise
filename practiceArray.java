@@ -114,7 +114,7 @@ public class practiceArray {
                 }
             }
         }
-        throw new IllegalArgumentException("No two sum solution");
+        return nums;
     }
 
     public static void main(String[] args) {
