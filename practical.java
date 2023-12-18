@@ -1,10 +1,11 @@
 import java.util.*;
+
 // Linear Search------------------------
 public class practical {
     public static int liner(int arr[], int x) {
         for (int i = 0; i < arr.length;) {
             if (arr[i] == x) {
-                
+
             }
             return i;
         }
@@ -12,51 +13,24 @@ public class practical {
     }
 }
 
-
 // Binary Search----------------------------
 public class practical {
-public static int binary(int[] arr, int x)
-{
-int start = 0;
-int end = arr.length - 1;
-while (start <= end) {
-int mid = (start + end) / 2;
-if (x == arr[mid]) {
-return mid;
+    public static int binary(int[] arr, int x) {
+        int start = 0;
+        int end = arr.length - 1;
+        while (start <= end) {
+            int mid = (start + end) / 2;
+            if (x == arr[mid]) {
+                return mid;
+            } else if (x > arr[mid]) {
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+        return -1;
+    }
 }
-else if (x > arr[mid]) {
-start = mid + 1;
-}
-else {
-end = mid - 1;
-}
-}
-return -1;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import java.util.*;
 
