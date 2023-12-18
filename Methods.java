@@ -1,3 +1,4 @@
+
 /*
  
 Question number --1
@@ -17,3 +18,20 @@ public class Methods {
     }
 }
 */
+Question number ---2
+import java.util.*;
+
+public class Methods {
+    static void pattern1(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        pattern1(5);
+    }
+}
