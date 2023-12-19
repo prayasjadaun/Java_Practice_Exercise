@@ -17,7 +17,6 @@ public class Methods {
         multiplication(8);
     }
 }
-*/
 Question number ---2
 import java.util.*;
 
@@ -30,8 +29,9 @@ public class Methods {
             System.out.println();
         }
     }
-
+    
     public static void main(String[] args) {
         pattern1(5);
     }
 }
+*/
