@@ -14,6 +14,6 @@ public class practicesrec {
         return n;
     }
     public static void main(String[]args){
-        pattern_recursion(5);
+        pattern_recursion(7);
     }
 }
