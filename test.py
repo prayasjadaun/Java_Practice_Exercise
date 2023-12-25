@@ -41,3 +41,6 @@ def find_duplicates(lst):
 duplicate_elements = find_duplicates(my_list)
 print("Duplicate elements in the list:", duplicate_elements)
 
+
+
+
