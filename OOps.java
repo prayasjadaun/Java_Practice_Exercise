@@ -59,7 +59,6 @@ public class OOps {
         System.out.println(sq.perimeter());
     }
 }
-*/
 //Problem-----------------------------------------
 public class OOps {
     class Rectangle {
@@ -76,11 +75,32 @@ public class OOps {
     public static void main(String[] args) {
         OOps oops = new OOps();
         OOps.Rectangle rc = oops.new Rectangle();
-
+        
         rc.length = 3;
         rc.width = 2;
-
+        
         System.out.println(rc.area());
         System.out.println(rc.perimeter());
+    }
+}
+*/
+//Problem Circle-----------------------------------------
+public class OOps{
+    class Circle{
+        double pi = 3.14;
+        int r ;
+        public double area(){
+            return pi*(r*r);
+        }
+        public double perimeter(){
+            return 2*(pi*r);
+        }
+    }
+    public static void main(String[]args){
+        OOps oops =  new OOps();
+        OOps.Circle cr = oops.new Circle();
+        cr.r = 3;
+        System.out.println(cr.area());
+        System.out.println(cr.perimeter());
     }
 }
