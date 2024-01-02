@@ -1,7 +1,7 @@
 // Write a java program to print the elements of an array in reverse order.
 // Solution------------------------------------------------
 
-import java.util.*;
+
 
 public class array {
     public static void main(String[] args) {

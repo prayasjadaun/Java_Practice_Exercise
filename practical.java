@@ -1,4 +1,3 @@
-import java.util.*;
 
 // Linear Search------------------------
 public class practical {
