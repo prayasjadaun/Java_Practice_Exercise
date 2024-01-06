@@ -8,7 +8,7 @@ class Base {
     public void setX(int x) {
         this.x = x;
     }
-
+}
     class Derived extends Base {
         public int y;
 
@@ -20,15 +20,15 @@ class Base {
             this.y = y;
         }
     }
-}
-
-public class Inheritance {
-    public static void main(String[] args) {
-        Base b = new Base();
-        b.setX(3);
-        System.out.println(b.getX());
-        Base.Derived d = new Base().new Derived(); // Corrected instantiation
-        d.setY(2);
-        System.out.println(d.getY());
+    
+    public class Inheritance {
+        public static void main(String[] args) {
+            Base b = new Base();
+            b.setX(3);
+            System.out.println(b.getX());
+            Derived d = new Derived(); // Corrected instantiation
+            d.setY(2);
+            System.out.println(d.getY());
+        }
     }
-}
+    
