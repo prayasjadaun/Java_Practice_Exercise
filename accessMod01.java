@@ -20,7 +20,7 @@ class MyEmployee {
     }
 }
 
-public class accessMod {
+public class accessMod01 {
     public static void main(String[] args) {
 
         MyEmployee Prayas = new MyEmployee();
