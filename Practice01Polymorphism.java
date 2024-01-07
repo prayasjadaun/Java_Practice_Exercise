@@ -52,15 +52,61 @@ class Human extends Monkey implements BasicAnimal {
     }
 }
 
+abstract class Telephone {
+    abstract void ring();
+
+    abstract void lift();
+
+    abstract void disconnected();
+}
+
+class SmartTelephone extends Telephone {
+    public void ring() {
+        System.out.println("Ringing..");
+    }
+
+    public void lift() {
+        System.out.println("Lifting....");
+    }
+
+    public void disconnected() {
+        System.out.println("Disconnected...");
+    }
+}
+
+interface TVRemote {
+
+}
+
+interface SmartTVRemote extends TVRemote {
+
+}
+
+class TV implements TVRemote {
+
+}
+
 public class Practice01Polymorphism {
     public static void main(String[] args) {
+        // Q1 + Q2
         FountainPen pen = new FountainPen();
         pen.Write();
         pen.Refill();
         pen.ChangeNib();
+        // Q3
         Human prayas = new Human();
         prayas.sleep();
         prayas.eat();
         prayas.speak();
+        //Q4
+        Telephone tl = new SmartTelephone();
+        tl.ring();
+        tl.lift();
+        tl.disconnected();
+
+        // Q5
+        Monkey m1 = new Human();
+        m1.bite();
+        m1.jump();
     }
 }
