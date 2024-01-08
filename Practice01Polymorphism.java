@@ -98,7 +98,7 @@ public class Practice01Polymorphism {
         prayas.sleep();
         prayas.eat();
         prayas.speak();
-        //Q4
+        // Q4
         Telephone tl = new SmartTelephone();
         tl.ring();
         tl.lift();
