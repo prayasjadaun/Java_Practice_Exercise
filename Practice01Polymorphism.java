@@ -28,6 +28,9 @@ class Monkey {
     void bite() {
         System.out.println("Bite");
     }
+    void bite1() {
+        System.out.println("Bite");
+    }
 }
 
 interface BasicAnimal {
