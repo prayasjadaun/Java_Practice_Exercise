@@ -1,4 +1,3 @@
-
 class Square {
     private int Area;
     private int perimeter;

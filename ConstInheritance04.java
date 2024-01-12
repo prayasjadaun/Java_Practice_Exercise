@@ -1,4 +1,3 @@
-package codewithme;
 class Base2 {
 
     Base2() {

@@ -1,5 +1,4 @@
 //Question ----------------------------------------
-
 abstract class Pen {
     abstract void Write();
 

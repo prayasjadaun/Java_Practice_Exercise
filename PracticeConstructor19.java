@@ -1,6 +1,5 @@
 
 
-
  
 class Cylinder {
     private int radius;

@@ -1,4 +1,3 @@
-package codewithme;
 class MyNewEmployee1 {
     private int id;
     private String name;

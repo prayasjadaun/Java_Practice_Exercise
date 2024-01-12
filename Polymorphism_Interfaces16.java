@@ -1,4 +1,3 @@
-
 interface camera {
     void takesnap();
 

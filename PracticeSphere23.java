@@ -1,4 +1,3 @@
-
 class Sphere {
     private int Radius;
 

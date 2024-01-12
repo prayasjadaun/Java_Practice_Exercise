@@ -1,4 +1,3 @@
-package codewithme;
 class Rectangle1 {
     public int length;
     public int width;
