@@ -1,6 +1,6 @@
 // Write a java program to print the elements of an array in reverse order.
 // Solution------------------------------------------------
-
+package codewithme;
 
 public class array02 {
     public static void main(String[] args) {
