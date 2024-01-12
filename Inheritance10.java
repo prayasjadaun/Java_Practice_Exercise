@@ -9,7 +9,7 @@ class Base {
         this.x = x;
     }
 }
-    class Derived extends Base {
+    class Derived3 extends Base {
         public int y;
 
         public int getY() {
@@ -26,7 +26,7 @@ class Base {
             Base b = new Base();
             b.setX(3);
             System.out.println(b.getX());
-            Derived d = new Derived(); // Corrected instantiation
+            Derived3 d = new Derived3(); // Corrected instantiation
             d.setY(2);
             System.out.println(d.getY());
         }

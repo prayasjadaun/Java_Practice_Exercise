@@ -1,10 +1,10 @@
 package codewithme;
-class Rectangle {
+class Rectangle1 {
     public int length;
     public int width;
     public int height;
 
-    Rectangle(int length, int width, int height) {
+    Rectangle1(int length, int width, int height) {
         this.length = length;
         this.width = width;
         this.height = height;
@@ -19,7 +19,7 @@ class Rectangle {
     }
 }
 
-class Cuboid1 extends Rectangle {
+class Cuboid1 extends Rectangle1 {
 
     Cuboid1(int length, int width, int height) {
         super(length, width, height);

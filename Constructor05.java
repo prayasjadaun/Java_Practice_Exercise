@@ -1,10 +1,10 @@
 package codewithme;
-class MyNewEmployee {
+class MyNewEmployee1 {
     private int id;
     private String name;
     private int salary;
 
-    public MyNewEmployee(String myname, int myId, int mysalary) {
+    public MyNewEmployee1(String myname, int myId, int mysalary) {
         id = myId;
         name = myname;
         salary = mysalary;
@@ -20,7 +20,7 @@ class MyNewEmployee {
 public class Constructor05 {
     public static void main(String[] args) {
 
-        MyNewEmployee Prayas = new MyNewEmployee("Prayas Jadaun",25,10000000);
+        MyNewEmployee1 Prayas = new MyNewEmployee1("Prayas Jadaun",25,10000000);
         System.out.println(Prayas.getName());
         System.out.println(Prayas.getId());
         System.out.println(Prayas.getSalary());

@@ -13,10 +13,10 @@ class Circle {
 
 }
 
-class Cylinder extends Circle {
+class MyCylinder extends Circle {
     public int height;
 
-    Cylinder(int r, int h) {
+    MyCylinder(int r, int h) {
         super(r);
         this.height = h;
     }
@@ -30,7 +30,7 @@ public class PracticeInheritance20 {
     public static void main(String[] args) {
         Circle cr = new Circle(3);
         System.out.println(cr.Area());
-        Cylinder cl = new Cylinder(2, 4);
+        MyCylinder cl = new MyCylinder(2, 4);
         System.out.println(cl.Volume());
     }
 }

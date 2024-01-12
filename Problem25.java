@@ -1,4 +1,4 @@
-package calc;
+
 
 class Calculator{
     public void calculate(int a, int b){

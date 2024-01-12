@@ -1,17 +1,17 @@
 
-interface Mycamera {
+interface camera {
     void takesnap();
 
     void recordvideo();
 }
 
-interface Mywifi {
+interface wifi {
     String[] getNetworks();
 
     void connectToNetwork(String network);
 }
 
-class MyCellPhone {
+class CellPhone {
     void callnumber(int phoneNumber) {
         System.out.println("Calling... " + phoneNumber);
     }
@@ -21,7 +21,7 @@ class MyCellPhone {
     }
 }
 
-class SmartPhone extends MyCellPhone implements Mycamera, Mywifi {
+class MSmartPhone extends CellPhone implements camera, wifi {
 
     @Override
     public String[] getNetworks() {
@@ -49,10 +49,10 @@ class SmartPhone extends MyCellPhone implements Mycamera, Mywifi {
 
 public class Polymorphism_Interfaces16 {
     public static void main(String[] args) {
-        Mycamera cam1 = new SmartPhone(); // This is a SmartPhone but use it as a camera !
+        camera cam1 = new MSmartPhone(); // This is a SmartPhone but use it as a camera !
         // cam1.getNetworks();---> Not Allowed
         cam1.recordvideo();
-        SmartPhone sm = new SmartPhone();
+        MSmartPhone sm = new MSmartPhone();
         sm.takesnap();
         sm.getNetworks();
         sm.connectToNetwork(null);

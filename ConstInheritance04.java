@@ -1,17 +1,17 @@
 package codewithme;
-class Base {
+class Base2 {
 
-    Base() {
+    Base2() {
         System.out.println("I am Base const");
     }
 
-    Base(int x) {
+    Base2(int x) {
         System.out.println("I am overload constructor with value of x as " + x);
     }
 
 }
 
-class Derived extends Base {
+class Derived extends Base2 {
 
     Derived() {
         System.out.println("I am Deived Const");

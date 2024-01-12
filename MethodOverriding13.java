@@ -1,5 +1,4 @@
-
-class Base {
+class Base0 {
 
     public void Method() {
         System.out.println("I am a method of class Base");
@@ -7,8 +6,8 @@ class Base {
 
 }
 
-class Derived extends Base {
-    @Override
+class Derived1 extends Base0 {
+    
     public void Method() {
         System.out.println("I am a method of class Derived");
     }
@@ -18,9 +17,9 @@ class Derived extends Base {
 public class MethodOverriding13 {
 
     public static void main(String[] args) {
-        Base b = new Base();
+        Base0 b = new Base0();
         b.Method();
-        Derived d = new Derived();
+        Derived1 d = new Derived1();
         d.Method();
 
     }

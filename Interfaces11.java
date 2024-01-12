@@ -21,7 +21,7 @@ class MyCellPhone {
     }
 }
 
-class SmartPhone extends MyCellPhone implements Mycamera, Mywifi {
+class MySmartPhone extends MyCellPhone implements Mycamera, Mywifi {
 
     @Override
     public String[] getNetworks() {
@@ -50,7 +50,7 @@ class SmartPhone extends MyCellPhone implements Mycamera, Mywifi {
 
 public class Interfaces11 {
     public static void main(String[] args) {
-        SmartPhone sm = new SmartPhone();
+        MySmartPhone sm = new MySmartPhone();
         String[] ar = sm.getNetworks();
         for (String item : ar) {
             System.out.println(item);
