@@ -2,7 +2,6 @@
 // Solution------------------------------------------------
 
 
-
 public class array02 {
     public static void main(String[] args) {
         int[] marks = { 98, 89, 80, 87, 99 };
