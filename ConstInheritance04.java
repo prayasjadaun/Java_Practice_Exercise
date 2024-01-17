@@ -39,7 +39,7 @@ public class ConstInheritance04 {
         // Base b = new Base();
         // Derived d = new Derived(14, 15);
         // ChildOfDerived cd = new ChildOfDerived();
-        ChildOfDerived cd1 = new ChildOfDerived(10, 20, 30);
+         new ChildOfDerived(10, 20, 30);
 
     }
 }
