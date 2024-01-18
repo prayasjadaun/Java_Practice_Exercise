@@ -1,4 +1,5 @@
 class MyThreadRunnable1 implements Runnable {
+    @Override
     public void run() {
         for (int i = 0; i < 100; i++) {
             System.out.println("My runnable thread 1");
@@ -8,10 +9,11 @@ class MyThreadRunnable1 implements Runnable {
 }
 
 class MyThreadRunnable2 implements Runnable {
+    @Override
     public void run() {
         int i = 0;
         while (i < 1000) {
-            System.out.println("My runnable thread 2 and im running");
+            System.out.println("My runnable thread 2 and i am running");
             i++;
         }
     }
