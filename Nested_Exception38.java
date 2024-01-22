@@ -31,5 +31,6 @@ public class Nested_Exception38 {
                 System.out.println("Exception handling level 2");
             }
         }
+        System.out.println("Thanks for using this program");
     }
 }
