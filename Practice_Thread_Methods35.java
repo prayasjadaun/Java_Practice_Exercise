@@ -33,7 +33,9 @@ public class Practice_Thread_Methods35 {
         // mt2.setPriority(3);
         System.out.println(mt1.getPriority());
         System.out.println(mt2.getPriority());
+        System.out.println(mt2.getState());
+        System.out.println(Thread.currentThread().getState());
         // mt1.start();
-        // mt2.start();
+        mt2.start();
     }
 }
