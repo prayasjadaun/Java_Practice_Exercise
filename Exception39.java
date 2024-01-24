@@ -22,6 +22,7 @@ public class Exception39 {
             } catch (Exception e) {
                 System.out.println(e.getMessage());
                 System.out.println(e.toString());
+                e.printStackTrace();
             }
         }
         else{
