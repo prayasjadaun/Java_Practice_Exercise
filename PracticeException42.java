@@ -5,17 +5,15 @@ public class PracticeException42 {
         // Problem--1
 
         // try {
-        //     int a = 50 / 9;
+        // int a = 50 / 9;
 
         // } catch (IllegalArgumentException e) {
-        //     System.out.println(e);
-        //     System.out.println("IllegalArgumentException");
+        // System.out.println(e);
+        // System.out.println("IllegalArgumentException");
         // } catch (ArithmeticException e) {
-        //     System.out.println(e);
-        //     System.out.println("ArithmeticArgumentException");
+        // System.out.println(e);
+        // System.out.println("ArithmeticArgumentException");
         // }
-
-        
 
         Scanner sc = new Scanner(System.in);
         boolean flag = true;
@@ -38,6 +36,9 @@ public class PracticeException42 {
                 System.out.println("Invalid Index");
                 i++;
             }
+        }
+        if (i >= 5) {
+            System.out.println("Error");
         }
     }
 }
