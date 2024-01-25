@@ -4,16 +4,18 @@ public class PracticeException42 {
     public static void main(String[] args) {
         // Problem--1
 
-        try {
-            int a = 50 / 9;
+        // try {
+        //     int a = 50 / 9;
 
-        } catch (IllegalArgumentException e) {
-            System.out.println(e);
-            System.out.println("IllegalArgumentException");
-        } catch (ArithmeticException e) {
-            System.out.println(e);
-            System.out.println("ArithmeticArgumentException");
-        }
+        // } catch (IllegalArgumentException e) {
+        //     System.out.println(e);
+        //     System.out.println("IllegalArgumentException");
+        // } catch (ArithmeticException e) {
+        //     System.out.println(e);
+        //     System.out.println("ArithmeticArgumentException");
+        // }
+
+        
 
         Scanner sc = new Scanner(System.in);
         boolean flag = true;
