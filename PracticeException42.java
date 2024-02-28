@@ -1,6 +1,9 @@
 import java.util.*;
 
 public class PracticeException42 {
+
+    
+
     public static void main(String[] args) {
         // Problem--1
 
